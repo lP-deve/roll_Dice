@@ -7,7 +7,7 @@ function rollDIce(){
   const values = [];
   const imgs = [];
 
- for(i = 0; i<numofDIce; i++){
+ for(let i = 0; i<numofDIce; i++){
      const value =Math.floor( Math.random()*6 )+1
      console.log(value)
      values.push(value);
