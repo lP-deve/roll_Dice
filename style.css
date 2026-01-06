@@ -1,0 +1,40 @@
+.container{
+     font-family:cursive;
+     text-align: center;
+     font-size: 2rem;
+     font-weight: bold;
+}
+
+button{
+    font-size: 18px;
+    border:none;
+    border-radius: 8px;
+    padding:10px 16px;
+    background-color: hsl(224, 52%, 45%);
+    color:white;
+    transition: 0.3s;
+}
+
+button:hover{
+    cursor:pointer;
+    opacity: 0.6;
+}
+
+button:active{
+   background-color: hsla(192, 52%, 45%, 0.749);   
+}
+
+input{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceResult{
+    margin:25px;
+
+}
+#dice img{
+    width: 150px; 
+    margin:5px;
+}
